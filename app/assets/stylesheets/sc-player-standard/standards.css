@@ -1,0 +1,13 @@
+/*.post {
+width: 540px;
+float: left;
+}
+*/
+.sidebar {
+float: right;
+width: 200px;
+padding-left: 10px;
+padding-bottom: 20px;
+margin-right: 10px;
+border-left: 1px dotted #000;
+}

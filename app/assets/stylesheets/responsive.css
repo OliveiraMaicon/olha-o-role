@@ -1,0 +1,1011 @@
+/* lg */ 
+@media (min-width: 1200px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.overlay, 
+	.single-performer {
+		height:350px;
+	}
+
+	.overlay h3 {
+		margin-top: 50%
+	}
+
+	.social-icons a {
+		margin-right: 10px
+	}
+
+
+	/* Blog CSS */ 	
+ 	.sidebar-inner 
+ 	.pull-left, 
+ 	.sidebar-inner 
+ 	.pull-left img {
+ 		width: 100%
+ 	}
+
+ 	.sidebar-inner 
+ 	.media-body {
+ 		display: inline-block;
+		margin-top: 15px;
+ 	}
+
+ 	/* About Us CSS */
+
+	.about-content h2 {
+		margin-top: 25px;
+	}
+
+	.members li {
+		width:25%;
+		margin-bottom: 25px
+	}
+
+	.about-content {
+		margin-top: -70px;
+	}
+
+
+	/* Price Table CSS */
+
+	.regular, 
+	.classic, 
+	.rock, 
+	.xplore, 
+	.vip {
+		width: 30%;
+		margin-bottom: 50px;
+		margin-right: 3%;
+	}
+
+	.regular:after, 
+	.classic:after, 
+	.classic:before, 
+	.rock:before, 
+	.rock:after, 
+	.xplore:after, 
+	.xplore:before, 
+	.vip:before {
+		display: none;
+	}
+
+	.classic {
+		margin-bottom: 70px;
+	}
+
+	.xplore {
+		margin-bottom: 30px;
+	}
+
+	#pricing-table .heading {
+		margin-bottom: 40px;
+	}
+
+	.pricing-content .btn-primary {
+		width: 125px;
+		height: 45px;
+		margin-top: 40px;
+		font-size: 18px;
+		line-height: 35px;
+	}
+
+	.regular-price .btn-primary {
+		left: 34%
+	}
+
+	.pricing-content .btn-primary {
+		float: left !important;
+	}
+ 	
+
+
+	/* latest-event */
+ 	.tab {
+ 		width: 10%
+ 	}
+
+ 	#tab-wrap.upcoming_event .item_dateWrapper{
+ 		left: 55px;
+ 	}
+
+	#tab-wrap.upcoming_event .flexslider .flex-direction-nav a.flex-next{
+	    height: 41px;
+	}
+
+	#tab-wrap.upcoming_event .flexslider .flex-direction-nav a.flex-prev{
+	    height: 41px;
+	}
+		
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	#navigation .navbar-nav li a {
+	 	font-size: 16px
+	 }
+
+	.single-performer {
+		background-size: cover !important;
+		background-repeat: no-repeat;
+		margin-bottom: 25px;
+	}
+
+	.overlay h3 {
+		margin-top: 70%
+	}
+
+	.summer-fastival {
+		height: 150px;
+	}
+
+ 	.single-event .media-heading {
+ 		font-size: 24px;
+ 		margin-bottom: 15px
+ 	}
+
+ 	#sponsor-slider img, 
+ 	.single-event.photo-gallery img {
+ 		width: 100%
+ 	}
+
+ 	.single-event.latest-post .media-heading {
+ 		margin-top: 20px
+ 	}
+
+ 	.sopnsor-left-control {
+ 		right: 8%
+ 	}
+
+ 	.sopnsor-right-control {
+ 		right: 5%
+ 	}
+
+ 	.updates-links h2 {
+ 		font-size: 18px
+ 	}
+
+ 	.sidebar-inner .media-body .media-heading {
+		display: block;
+		margin-top: 20px;
+	}
+
+	.author-info .pull-left {
+		width: 100%;
+		float: none !important;
+	}
+
+	.sidebar-inner .media-body {
+		width: 100%
+	}
+
+	.sidebar-inner .widget h3 {
+		font-size: 24px
+	}
+
+
+
+	/* About Us CSS */
+
+	.about-content h2 {
+		margin-top: 25px;
+	}
+
+	.members li {
+		width: 33%;
+		margin-bottom: 25px
+	}
+
+	.about-content {
+		margin-top: -70px;
+	}
+
+
+	/* Price Table CSS */
+
+	.regular, 
+	.classic, 
+	.rock, 
+	.xplore, 
+	.vip {
+		width: 47%;
+		margin-bottom: 50px;
+		margin-right: 3%;
+	}
+
+	.regular:after, 
+	.classic:after, 
+	.classic:before, 
+	.rock:before, 
+	.rock:after, 
+	.xplore:after, 
+	.xplore:before, 
+	.vip:before {
+		display: none;
+	}
+
+	.classic {
+		margin-bottom: 70px;
+	}
+
+	.xplore {
+		margin-bottom: 30px;
+	}
+
+	#pricing-table .heading {
+		margin-bottom: 40px;
+	}
+
+	.pricing-content .btn-primary {
+		width: 125px;
+		height: 45px;
+		margin-top: 40px;
+		font-size: 18px;
+		line-height: 35px;
+	}
+
+	.regular-price .btn-primary {
+		left: 34%
+	}
+
+	.pricing-content .btn-primary {
+		float: left !important;
+	}
+
+
+	/* latest-event */
+	#latest-event-content .latest-event {
+		display: block;
+	}
+
+	.latest-event .tab-image {
+	  width: 100%;
+	  }
+
+	.latest-event .tab-image img {
+	  width: 100%
+	}
+
+	.latest-event .tab {
+	  width: 15%;
+	}
+
+
+	.latest-event .event-details {
+	  padding: 25px;
+	  width: 85%;
+	}
+
+	.latest-event .tab-pane .btn-purchase {
+		margin-bottom: 26px
+	}
+
+	.latest-event .event-content .heading-side {
+		width: 44%
+	}
+
+	.latest-event .event-details h3 {
+		font-size: 21px;
+		margin-bottom: 18px
+	}
+
+	.latest-event .event-content li {
+		font-size: 17px
+	}
+
+	#tab-wrap.upcoming_event .item_dateWrapper{
+		left: 138px;
+	}
+
+	.event-content-inner ul.performer-list li{
+		width: 50%;
+	}
+
+	.event-content-inner ul.performer-list li .perfomer-wrapper,
+	.event-content-inner ul.performer-list li .overlay{
+		height: 100%;
+	}
+
+	.event-date-time div.event-date{
+		margin-bottom: 30px;
+	}
+
+	.contact-map{
+		height: 300px;
+	}
+}
+
+/* xs */
+@media (max-width: 767px) {
+
+	#navigation .navbar-collapse {
+		margin-top: 10px;
+	  	box-shadow: none;
+	  	border: none;
+	}
+
+	#navigation .navbar-nav > li > a {
+		height: 40px;
+		line-height: 40px;
+	}
+
+	.dropdown .fa-angle-down {
+ 		display: none;
+ 	}
+
+ 	.nav.navbar-nav > li:hover > ul.sub-menu{
+		display: block;
+		-webkit-animation: none;
+		-moz-animation: none;
+		-ms-animation: none;
+		-o-animation: none;
+		animation: none;
+	}
+
+ 	ul.sub-menu{
+ 		display: block;
+ 		position: relative;
+ 		left: 0;
+ 		top: 0;
+ 		padding-left: 20px;
+ 		background: transparent;
+ 		box-shadow: none;	
+ 	}
+
+ 	#navigation .navbar-nav li ul.sub-menu li a{
+ 		padding: 0;
+ 	}
+
+ 	.navbar-nav>li>a{
+ 		padding-top: 5px;
+ 		padding-bottom: 5px;
+ 	}
+
+ 	#navigation .navbar-nav li a{
+ 		font-size: 18px;
+ 	}
+
+	#countdown p, 
+	#countdown .time-font {
+		font-size: 16px
+	}
+
+	#home h1 {
+		font-size: 45px;
+	}
+
+	.left-perfomer-control, 
+	.right-perfomer-control {
+		top: -65px;
+	}
+
+	.left-perfomer-control {
+		right: 5%
+	}
+
+	.single-performer {
+		background-size: cover !important;
+		background-repeat: no-repeat;
+		margin-bottom: 25px;
+	}
+
+	.overlay h3 {
+		margin-top: 50%;
+	}
+
+	.summer-fastival {
+ 		height: 225px;
+ 	}
+
+ 	.single-event .pull-left {
+ 		float: none !important;
+ 		margin-right: 0
+ 	}
+
+ 	.single-event .pull-left img {
+ 		width: 100%
+ 	}
+
+ 	.single-event .media-heading {
+ 		margin-top: 15px
+ 	}
+
+
+	.sopnsor-right-control, 
+ 	.sopnsor-left-control {
+ 		top: 23px;
+ 	}
+
+
+ 	.sopnsor-right-control {
+ 		right:4%;
+ 	} 
+
+ 	.sopnsor-left-control {
+ 		right:10%;
+ 	}
+
+ 	#sponsor-slider .item {
+ 		padding: 0
+ 	}
+
+ 	#sponsor-slider .item-part {
+ 		overflow: inherit;
+ 	}
+
+ 	.news-letter, .twitter-updates {
+ 		padding: 0
+ 	}
+
+ 	.quick-links {
+ 		margin-top: 35px;
+ 	}
+
+ 	.quick-links .social-link a {
+		font-size: 18px;
+		margin-right:0;
+ 	}
+
+ 	.news-letter .btn-default {
+ 		float:left !important;
+ 	}
+
+ 	/* Latest-event CSS */
+ 
+ 	#latest-event-content .latest-event {
+		display: block;
+		margin-bottom: 30px;
+	}
+
+ 	.tab-image {
+ 		width: 100%
+ 	}
+
+ 	.latest-event .tab-image img {
+	  width: 100%
+	}
+
+ 	.tab {
+ 		width: 15%
+ 	}
+
+ 	.latest-event .event-details {
+		padding:14px;
+		width: 85%;
+	}
+
+	.latest-event ul li {
+		padding: 15px;
+	}
+
+	.latest-event 
+	.event-content 
+	.heading-side {
+		width: 50%;
+	}
+
+	.latest-event .event-details h3 {
+		font-size: 20px;
+		margin-bottom: 15px;
+		margin-top: 39px;
+	}
+
+	.latest-event .event-content li {
+		font-size: 13px;
+		line-height: 20px
+	}
+
+	.latest-event .tab-pane .btn-purchase {
+		font-size: 16px;
+		padding: 5px 15px;
+		margin-bottom: 16px;
+	}
+
+	.latest-event .tab-pane iframe {
+		height: 176px;
+		display: block;
+	}
+
+
+	/* About Us CSS */
+
+	.about-content h2 {
+		font-size: 24px;
+		margin-top: 25px;
+	}
+
+	.members li {
+		width: 50%;
+		margin-bottom: 25px
+	}
+
+		.music {
+	  margin-left: 0;
+	}
+
+
+	/* Contact CSS */
+	.social-networks ul li a {
+		font-size: 20px;
+		margin-right: 28px;
+	}
+	
+
+	/* Price Table CSS */
+
+	.regular, 
+	.classic, 
+	.rock, 
+	.xplore, 
+	.vip {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	.regular:after, 
+	.classic:after, 
+	.classic:before, 
+	.rock:before, 
+	.rock:after, 
+	.xplore:after, 
+	.xplore:before, 
+	.vip:before {
+		display: none;
+	}
+
+	.classic {
+		margin-bottom: 70px;
+	}
+
+	.xplore {
+		margin-bottom: 30px;
+	}
+
+	#pricing-table .heading {
+		margin-bottom: 40px;
+	}
+
+	.pricing-content .btn-primary {
+		width: 125px;
+		height: 45px;
+		margin-top: 40px;
+		font-size: 18px;
+		line-height: 35px;
+	}
+
+	.regular-price .btn-primary {
+		left: 40%
+	}
+
+	#tab-wrap.upcoming_event .upevent_content{
+		padding-left: 0;
+	}
+
+	#tab-wrap.upcoming_event .event-short-desc{
+		margin-top: 30px;
+	}
+
+	#tab-wrap.upcoming_event .item_dateWrapper{
+
+		left: -62px;
+	}
+
+	.event-content-inner ul.performer-list li{
+		width: 50%;
+	}
+
+	.event-content-inner ul.performer-list li .perfomer-wrapper,
+	.event-content-inner ul.performer-list li .overlay{
+		height: 100%;
+	}
+
+	.event-date-time div.event-date{
+		margin-bottom: 30px;
+	}
+
+	.contact-map{
+		height: 300px;
+	}
+
+	.event-content-inner .themeum_kcoundown ul.countdown-row li.countdown-section{
+		width: 50%;
+	}
+
+}
+
+
+
+
+/* XS Portrait */
+@media (max-width: 479px) {
+
+	.event-content-inner .themeum_kcoundown ul.countdown-row li.countdown-section{
+		padding: 40px 0;
+	}
+
+	.event-content-inner .themeum_kcoundown ul.countdown-row li.countdown-section span.countdown-amount{
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.event-content-inner .themeum_kcoundown ul.countdown-row li.countdown-section span.countdown-period{
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.event-content-inner ul.performer-list li{
+		width: 100%;
+	}
+
+	.event-content-inner .event-date-time .event-date,
+	.event-content-inner .event-date-time .event-time{
+		line-height: 70px;
+		font-size: 14px;
+	}
+
+ 	#navigation .navbar-nav li a {
+		padding-bottom: 8px;
+		font-size: 16px;
+		font-weight: 400;
+ 	}
+
+ 	.dropdown .fa-angle-down {
+ 		display: inline;
+ 		margin-left: 5px
+ 	}
+
+ 	#countdown p, 
+ 	#countdown .time-font, 
+ 	.single-event .media-body p {
+ 		font-size: 16px
+ 	}
+
+ 	#home h1 {
+ 		font-size: 45px
+ 	}
+
+	.heading {
+		font-size: 25px;
+	}
+
+ 	.left-perfomer-control {
+ 		right:10%;
+ 	}
+
+ 	.single-performer {
+ 		margin-bottom: 25px;
+ 		height:300px;
+ 	}
+
+ 	.overlay {
+ 		height: 100%;
+ 	}
+
+ 	.overlay h3 {
+		margin-top: 10%;
+	}
+
+	.event-content-inner .overlay h3 {
+		margin-top: 30%;
+	}
+
+	.overlay p {
+		font-size: 16px;
+		font-weight: 400;
+		text-align: justify;
+	}
+
+	.social-icons a {
+		margin-right: 10px
+	}
+
+ 	.summer-fastival {
+ 		height: 280px;
+ 	}
+
+ 	.summer-fastival h2 {
+		color: #EC5538;
+		font-size: 25px;
+		font-weight: 700;
+		margin-top: 0;
+	}
+
+	.single-performer {
+		height: 360px;
+		margin-bottom: 25px;
+	}
+
+ 	#main-contact-form 
+ 	.btn-default, .buy-ticket {
+ 		font-size: 18px;
+		height: 45px;
+		line-height: 35px;
+		width: 142px;
+ 	}
+
+ 	.single-event .pull-left {
+ 		float: none !important;
+ 	}
+
+ 	.single-event.upcoming .pull-left {
+ 		float: left !important;
+ 	}
+
+
+ 	.single-event .media-heading {
+ 		font-size: 24px;
+ 		margin-bottom: 15px
+ 	}
+
+ 	#carousel {
+ 		margin-top: 44px
+ 	}
+
+ 	.single-event.latest-post .pull-left {
+ 		margin-right: 0
+ 	}
+
+ 	.single-event.latest-post .pull-left img {
+ 		width: 100%
+ 	}
+
+ 	.single-event.latest-post .media-heading {
+ 		margin-top: 20px
+ 	}
+
+ 	#sponsor-slider img, 
+ 	.single-event.photo-gallery img {
+ 		width: 100%
+ 	}
+
+ 	.sopnsor-right-control, 
+ 	.sopnsor-left-control {
+ 		top: 23px;
+ 	}
+
+
+ 	.sopnsor-right-control {
+ 		right:4%;
+ 	} 
+
+ 	.sopnsor-left-control {
+ 		right:10%;
+ 	}
+
+ 	#sponsor-slider .item {
+ 		padding: 0
+ 	}
+
+ 	#sponsor-slider .item-part {
+ 		overflow: inherit;
+ 	}
+
+ 	.news-letter, .twitter-updates {
+ 		padding: 0
+ 	}
+
+ 	.quick-links {
+ 		margin-top: 35px;
+ 	}
+
+ 	.quick-links .social-link a {
+		font-size: 18px;
+		margin-right:0;
+ 	}
+
+ 	.news-letter .btn-default {
+ 		width: 100%
+ 	}
+
+ 	.photo-gallery ul li {
+ 		width: 50%
+ 	}
+
+ 	.news-letter .btn-primary {
+		font-size: 16px;
+		padding: 4px 15px;
+ 	}
+
+ 	/* Latest-event CSS */
+ 	#latest-event-content .latest-event {
+		display: block;
+	}
+
+ 	.tab-image {
+ 		width: 100%
+ 	}
+
+ 	.latest-event .tab-image img {
+	  width: 100%
+	}
+
+ 	.tab {
+ 		width: 20%
+ 	}
+
+ 	.latest-event .event-details {
+		padding: 14px;
+		width: 80%;
+	}
+
+	.latest-event ul li {
+		padding: 15px 12px;
+	}
+
+	.latest-event 
+	.event-content 
+	.heading-side {
+		width: 50%;
+	}
+
+	.latest-event .event-details h3 {
+		font-size: 16px;
+		margin-bottom: 5px;
+		margin-top: 7px;
+	}
+
+	.latest-event .event-content li {
+		font-size: 13px;
+		line-height: 20px
+	}
+
+	.latest-event .tab-pane .btn-purchase {
+		font-size: 16px;
+		padding: 5px 15px;
+		margin-bottom: 35px;
+	}
+
+	.latest-event .tab-pane iframe {
+		height: 176px;
+		display: block;
+	}
+
+	/* 404 css*/
+
+	.error-info h2 span {
+		letter-spacing: 0;
+		font-size: 125px
+	}
+
+	.back-to p {
+		text-align: justify;
+	}
+
+	
+
+ 	/* Blog CSS */
+
+	.entry-header .entry-title, 
+	.sidebar-inner .widget h3 {
+		font-size: 24px;
+	}
+
+	.sidebar-inner .media .pull-left, 
+	.sidebar-inner .media-body, 
+	.sidebar-inner a img {
+		width: 100%
+	}
+
+	.sidebar-inner 
+	.media-body 
+	.media-heading {
+		display: block;
+		margin-top: 20px;
+	}
+
+	.author-info .pull-left {
+		width: 100%;
+		float: none !important;
+	}
+
+	.author-info .pull-left img {
+		width: 100%
+	}
+
+
+
+	/* About Us CSS */
+	.about-content h2 {
+		font-size: 24px;
+		margin-top: 25px;
+	}
+
+	.members li {
+		width: 100%;
+		margin-bottom: 25px;
+	}
+
+	.comments .media, .comments .media-body {
+		overflow: inherit;
+	}
+
+	.music {
+	  margin-left: 0;
+	}
+
+
+	/* Contact CSS */
+	.social-networks ul li a {
+		font-size: 20px;
+		margin-right: 28px;
+	}
+
+
+	/* Price Table CSS */
+
+	.regular, 
+	.classic, 
+	.rock, 
+	.xplore,  
+	.vip {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	.regular:after, 
+	.classic:after, 
+	.classic:before, 
+	.rock:before, 
+	.rock:after, 
+	.xplore:after, 
+	.xplore:before, 
+	.vip:before {
+		display: none;
+	}
+
+	.classic {
+		margin-bottom: 70px;
+	}
+
+	.xplore {
+		margin-bottom: 30px;
+	}
+
+	#pricing-table .heading {
+		margin-bottom: 40px;
+	}
+
+	.pricing-content .btn-primary {
+		width: 125px;
+		height: 45px;
+		margin-top: 40px;
+		font-size: 18px;
+		line-height: 35px;
+	}
+
+	.regular-price .btn-primary {
+		left:25%
+	}
+
+	.summer-fastival {
+        display: block;
+        height: auto;
+        overflow: hidden;
+	}
+	
+	.entry-content p {
+	  text-align: justify;
+	}
+	
+	.popular-albums .media .pull-left {
+	  float: none !important;
+	}
+	
+	.popular-albums .media .pull-left img {
+	  width: 100%;
+	  margin-bottom: 20px;
+	}
+	
+	.popular-albums .media a h3 {
+	  font-size: 25px;
+	}
+	
+	.popular-albums .media-body li {
+	  font-size: 18px;
+	}
+	
+}
+

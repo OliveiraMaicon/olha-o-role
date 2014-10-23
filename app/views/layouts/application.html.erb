@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Olha o Rolê</title>
+
+    <%= stylesheet_link_tag "application" %>
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]--> 
+   <!-- <%= favicon_link_tag "ico/favicon.ico" %>
+    <%= image_tag "ico/apple-touch-icon-144-precomposed.png" %>
+    <%= image_tag "ico/apple-touch-icon-114-precomposed.png" %>
+    <%= image_tag "ico/apple-touch-icon-72-precomposed.png" %>
+    <%= image_tag "ico/apple-touch-icon-144-precomposed.png" %>
+    <%= image_tag "ico/apple-touch-icon-57-precomposed.png" %>
+  -->
+
+</head><!--/head-->
+
+<body>
+
+	<header id="navigation">      
+        <div class="navbar" role="banner">
+            <div class="container">
+            	<div class="row">
+            		<div class="col-sm-3">
+            			<div class="navbar-header">
+		                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		                        <span class="sr-only">Toggle navigation</span>
+		                        <span class="icon-bar"></span>
+		                        <span class="icon-bar"></span>
+		                        <span class="icon-bar"></span>
+		                    </button>
+		                    <a class="navbar-brand" href="index.html"><h1> <%=image_tag "logo.png" %></h1></a>
+		                </div>
+            		</div>
+            		<div class="col-sm-9">
+            			<nav class="navbar-right collapse navbar-collapse">
+		                    <ul class="nav navbar-nav">                                                                     
+		                        <li><a class="active" href="index.html">Início</a></li>
+		                        <li class="dropdown"><a href="#">Explore<i class="fa fa-angle-down"></i></a>
+		                        	<ul role="menu" class="sub-menu">
+		                        		<li><a href="about-us.html">About Us</a></li>
+										<li><a href="#">Faqs</a></li>
+										<li><a href="404.html">404</a></li>
+		                        	</ul>
+		                        </li>                         
+		                        <li class="dropdown"><a href="#">Event<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="latest-events.html">Events List</a></li>
+                                        <li><a href="single-event.html">Single Event</a></li>
+                                    </ul>
+                                </li>
+		                        <li><a href="album.html">Album</a></li>                     
+		                        <li class="dropdown"><a href="#">Blog<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="blog.html">Blog List</a></li>
+                                        <li><a href="single.html">Single Post</a></li>
+                                    </ul>
+                                </li>
+		                        <li><a href="pricing-table.html">Price </a></li>
+		                        <li><a href="contact-us.html">Contact </a></li>                               
+		                    </ul>
+		                </nav>
+            		</div>
+            	</div> 
+            </div>
+        </div>
+    </header> <!--/#navigation-->
+
+<%= yield %>
+
+	<footer id="footer-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="updates-links bg">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="twitter-updates">
+                                 <h3><i class="fa fa-twitter"></i> Twitter</h3>
+                                <p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit<br>
+                                 <a href="">http://t.co/yY7s1IfrAb 2 days ago</a></p>
+
+                                <p><strong>RT @JhonDoe:</strong>  Proin metus odio,
+                                aliquam eget molestie nec, gravida ut sapien. Phasellus quis est <br>
+                                <a href="">http://t.co/HMOeUv5BaD 8 days ago</a></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-md-offset-1">
+                            <div class="quick-links">
+                                <h3><i class="fa fa-bolt"></i> QUICK LINKS</h3>
+                                <ul>
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href="">Pricing List</a></li>
+                                    <li><a href="">Contact</a></li>
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href="">Terms & Conditions</a></li>
+                                    <li><a href="">Calendar</a></li>
+                                </ul>
+                                <div class="social-link">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="news-letter">
+                                <h3><i class="fa fa-envelope"></i> NEWSLETTER</h3>
+                                <p>Vocal sodales feugiat consectetur, nisl      orci bibendum elit, eu euismod magna        sapien ut nibh elit.</p>
+                                <input type="email" name="email" value="">
+                                <a href="" class="btn btn-primary pull-right">Submit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer text-center bg">
+                       <a href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'slow');">
+                       <%=image_tag "logo.png" %>
+                       </a>
+                    </div><!--/#footer-->
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-widget-->
+
+    <%= javascript_include_tag "application" %>
+    <script type="text/javascript">
+        jQuery(document).ready(function($){
+            $(window).load(function() {
+                // The slider being synced must be initialized first
+                $('#carousel').flexslider({
+                    animation: "slide",
+                    controlNav: false,
+                    animationLoop: false,
+                    slideshow: false,
+                    itemWidth: 41,
+                    itemMargin: 0,
+                    asNavFor: '#slider'
+                });
+
+                $('#slider').flexslider({
+                    directionNav: false,
+                    animation: "fade",
+                    controlNav: false,
+                    animationLoop: false,
+                    slideshow: false,
+                    sync: "#carousel"
+                });
+            });
+        });
+
+    </script>
+
+
+</body>
+</html>

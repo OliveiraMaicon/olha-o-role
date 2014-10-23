@@ -1,0 +1,224 @@
+.sc-player {
+  font: 12px Arial, sans-serif;
+  color: #fff;
+  font-size: 0.7em;
+  line-height: 1.4em;
+}
+
+
+.sc-player a {
+  text-decoration: none;
+
+}
+
+/* Artworks */
+
+.sc-player .sc-artwork-list{
+  background: #fff;
+}
+
+.sc-player .sc-artwork-list li{
+  background: #ec5538;
+}
+/* scrubber */
+
+.sc-scrubber:after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  right: -22px;
+  height: 12px;
+  width: 12px;
+  background:  url('../../css/sc-player-standard/img/volume_icon.png');
+}
+
+.sc-scrubber .sc-time-bar {
+  background-color: #b4b4b4;
+}
+
+.sc-volume-slider {
+  background-color: #e5e5e5;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+.sc-volume-slider .sc-volume-status{
+  background-color: #666;
+  height: 43px;
+}
+
+
+.sc-scrubber .sc-waveform-container {
+  z-index: 800;
+  width: 100%;
+  position: absolute;
+}
+
+.sc-scrubber .sc-time-bar img {
+  height: 4px;
+  width: 100%;
+  visibility: hidden;
+  /*background: -moz-linear-gradient(top, black, #22B573 0px, #7decba 90%);
+  background: -webkit-gradient(linear, left top, left 90%, from(black), color-stop(0%, #22B573), to(#7decba));*/
+
+}
+
+.sc-scrubber .sc-buffer, .sc-scrubber .sc-played {
+  background-color: #999;
+  z-index: 1;
+  position: absolute;
+}
+
+.sc-scrubber .sc-played {
+  background-color: #ec5538;
+  z-index: 799;
+}
+
+/* controls */
+
+/*.sc-player .sc-controls a:after {
+    content: "\f144";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    position: absolute;
+    top: 18px;
+    font-size: 50px;
+    right: 8px;
+    color: #fff;
+}*/
+
+.sc-player .sc-controls {
+  background: #ec5538;
+}
+
+
+.sc-player .sc-controls a {
+  position: relative;
+  color: transparent;
+  background: url('../../css/sc-player-standard/img/play-white.png');
+}
+
+.sc-player .sc-controls a:hover{
+  background: url('../../css/sc-player-standard/img/play-white-hover.png');
+
+}
+
+.sc-player .sc-controls a.sc-pause {
+  background: url('../../css/sc-player-standard/img/play-white.png');
+
+}
+
+.sc-player .sc-controls a.sc-pause:hover{
+  background: url('../../css/sc-player-standard/img/play-white-hover.png');
+}
+
+.sc-player.playing .sc-controls a.sc-pause{
+  background: url('../../css/sc-player-standard/img/pause-white.png');
+}
+
+.sc-player.playing .sc-controls a.sc-pause:hover{
+  background: url('../../css/sc-player-standard/img/pause-white-hover.png');
+  /*color: #ddd;*/
+}  
+
+.sc-scrubber .sc-time-indicators{
+  color: #a3a3a3;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  z-index: 999;
+}
+
+/* Track listings*/
+
+.sc-player ol.sc-trackslist li {
+  color: #a3a3a3;
+  -webkit-transition: background 0.3s ease-in;
+  border-bottom: 1px solid #343434;
+  list-style: none;
+  font-size: 13px;
+}
+
+.sc-player ol.sc-trackslist li a{  
+  display: inline-block;
+}
+
+.sc-player ol.sc-trackslist li a.sp_audio_player_song_title{
+  color: #999;
+  white-space: pre;
+  text-overflow: ellipsis; 
+  overflow: hidden;
+  max-height: 14px;
+  display: inline-block;
+  width: 90%;
+}
+
+.sc-player ol.sc-trackslist li .sc-track-duration{
+  display: inline-block;
+  width: 10%;
+  text-align: right;
+}
+
+.sc-player ol.sc-trackslist li:hover a, .sc-player ol.sc-trackslist li:hover {  
+  color: #000;   
+}
+
+.sc-player ol.sc-trackslist li.active{  
+  border-bottom: 1px solid #000;
+
+}
+
+.sc-player ol.sc-trackslist li.active span{
+   color: #000;
+}
+
+.sc-player ol.sc-trackslist li.active a {
+  color: #000;
+  position: relative;
+  padding-left: 20px;
+}
+
+.sc-player ol.sc-trackslist li.active a:after {
+  content: "\f001";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  margin-top: -10px;
+  font-size: 14px;
+  color: #EC5538;
+}
+
+
+/* Track info*/
+
+
+.sc-player .sc-info h3{
+  color: #000;
+}
+
+.sc-player .sc-info a {
+  color: #777777;
+}
+
+.sc-player .sc-info-toggle{
+  background: #22B573;
+  color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  padding: 4px;
+}
+
+.sc-player .sc-info-toggle:hover{
+  background: #333;
+  color: #fff;
+}
+
+.sc-player .sc-info-close{
+  background: #22B573;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  padding: 2px 4px;
+  font-weight: bold;
+}
