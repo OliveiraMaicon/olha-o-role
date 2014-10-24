@@ -20,6 +20,11 @@
 //= require jquery.fitvids
 //= require main
 //= require coundown-timer
+//= require contact
+//= require gmaps
+//= require html5shiv
+//= require respond.min
+//= require comingsoon
 //= require jquery.flexslider
 //= require jquery.backstretch.min
 //= require switcher
