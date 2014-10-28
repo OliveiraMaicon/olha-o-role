@@ -307,6 +307,10 @@ ul.sub-menu{
   font-weight: 300;
 }
 
+.footer img {
+    cursor:pointer;
+}
+
 
 /*************************
 ******* Home CSS ********
