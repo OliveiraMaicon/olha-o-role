@@ -17,7 +17,6 @@
  *= require sc-player-standard
  *= require main
  *= require responsive
- *= require presets/preset3
  *= require switcher
  *= require_tree .
  *= require_self
