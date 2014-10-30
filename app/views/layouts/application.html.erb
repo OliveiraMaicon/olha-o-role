@@ -13,8 +13,9 @@
     <!--[if lt IE 9]>
 	    <script src="js/html5shiv.js"></script>
 	    <script src="js/respond.min.js"></script>
-    <![endif]--> 
-   <!-- <%= favicon_link_tag "ico/favicon.ico" %>
+    <![endif]-->
+  <%= favicon_link_tag "favicon.ico" %>
+   <!--
     <%= image_tag "ico/apple-touch-icon-144-precomposed.png" %>
     <%= image_tag "ico/apple-touch-icon-114-precomposed.png" %>
     <%= image_tag "ico/apple-touch-icon-72-precomposed.png" %>
@@ -38,7 +39,7 @@
 		                        <span class="icon-bar"></span>
 		                        <span class="icon-bar"></span>
 		                    </button>
-                          <%= link_to image_tag "logo.png" , controller: "pages", action: "index" %>
+                          <%= link_to image_tag "logo 1.1.png" , controller: "pages", action: "index" %>
 		                </div>
             		</div>
             		<div class="col-sm-9">
@@ -78,57 +79,6 @@
 
 <%= yield %>
 
-	<footer id="footer-wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="updates-links bg">
-                        <div class="col-sm-6 col-md-4">
-                            <div class="twitter-updates">
-                                 <h3><i class="fa fa-twitter"></i> Twitter</h3>
-                                <p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit<br>
-                                 <a href="">http://t.co/yY7s1IfrAb 2 days ago</a></p>
-
-                                <p><strong>RT @JhonDoe:</strong>  Proin metus odio,
-                                aliquam eget molestie nec, gravida ut sapien. Phasellus quis est <br>
-                                <a href="">http://t.co/HMOeUv5BaD 8 days ago</a></p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3 col-md-offset-1">
-                            <div class="quick-links">
-                                <h3><i class="fa fa-bolt"></i> QUICK LINKS</h3>
-                                <ul>
-                                    <li><a href="">About Us</a></li>
-                                    <li><a href="">Pricing List</a></li>
-                                    <li><a href="">Contact</a></li>
-                                    <li><a href="">About Us</a></li>
-                                    <li><a href="">Terms & Conditions</a></li>
-                                    <li><a href="">Calendar</a></li>
-                                </ul>
-                                <div class="social-link">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-youtube"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4">
-                            <div class="news-letter">
-                                <h3><i class="fa fa-envelope"></i> NEWSLETTER</h3>
-                                <p>Vocal sodales feugiat consectetur, nisl      orci bibendum elit, eu euismod magna        sapien ut nibh elit.</p>
-                                <input type="email" name="email" value="">
-                                <a href="" class="btn btn-primary pull-right">Submit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer text-center bg">
-                      <%= image_tag "logo.png", onclick:"$('html, body').animate({ scrollTop: 0 }, 'slow');" %>
-                    </div><!--/#footer-->
-                </div>
-            </div>
-        </div>
-    </footer><!--/#footer-widget-->
 
     <%= javascript_include_tag "application" %>
     <script type="text/javascript">
