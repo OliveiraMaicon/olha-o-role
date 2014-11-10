@@ -4,13 +4,13 @@ jQuery(function($) {'use strict',
 	 $("a[data-gallery^='prettyPhoto']").prettyPhoto({
 	  social_tools: false
 	 });
-	 
+
 	//Countdown js
 	$("#countdown").countdown({
-			date: "10 august 2016 12:00:00",
+			date: "12 november 2014 12:00:00",
 			format: "on"
 	},
-		
+
 	function() {
 			// callback function
 	});
