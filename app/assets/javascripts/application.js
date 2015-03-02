@@ -19,9 +19,9 @@
 //= require jquery.prettyPhoto
 //= require jquery.fitvids
 //= require main
-//= require coundown-timer
-//= require contact
-//= require gmaps
+// require coundown-timer
+// require contact
+// require gmaps
 //= require html5shiv
 //= require respond.min
 //= require jquery.flexslider
