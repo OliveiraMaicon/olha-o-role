@@ -88,6 +88,7 @@ iframe{
 #navigation .navbar{
     margin-bottom: 0;
     border: 0;
+    background:rgba(0, 0, 0, 0.8);
 }
 
 #navigation .navbar-brand {

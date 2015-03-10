@@ -21,14 +21,25 @@
     <%= image_tag "ico/apple-touch-icon-72-precomposed.png" %>
     <%= image_tag "ico/apple-touch-icon-144-precomposed.png" %>
     <%= image_tag "ico/apple-touch-icon-57-precomposed.png" %>
+
+
   -->
+  <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map_canvas { height: 100% }
+  </style>
+
+  <script type="text/javascript"
+          src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDRVpqN5PTvDQmC26pX5yQtBv2t3YGCUcs&sensor=false">
+  </script>
 
 </head><!--/head-->
 
-<body>
+<body onload="initialize()" >
 
 	<header id="navigation">      
-        <div class="navbar" role="banner">
+        <div class="navbar navbar-fixed-top" role="banner">
             <div class="container">
             	<div class="row">
             		<div class="col-sm-3">
@@ -42,7 +53,7 @@
                           <%= link_to image_tag "logo 1.1.png" , controller: "pages", action: "index" %>
 		                </div>
             		</div>
-            		<div class="col-sm-9" style="display: none">
+            		<div class="col-sm-9" >
             			<nav class="navbar-right collapse navbar-collapse">
 		                    <ul class="nav navbar-nav">                                                                     
 		                        <li>
@@ -78,6 +89,10 @@
     </header> <!--/#navigation-->
 
 <%= yield %>
+
+    <div style="position:absolute; bottom:0; width:100%; height: 100px; background-color: rgba(0,0,0,0.8);">
+      <div class="fb-like-box" data-href="https://www.facebook.com/pages/Olha-o-Rol&#xea;/722573154430808" data-width="100%" data-height="100" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
+    </div>
 
 
     <%= javascript_include_tag "application" %>

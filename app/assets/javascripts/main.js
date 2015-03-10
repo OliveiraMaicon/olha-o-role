@@ -5,7 +5,7 @@ jQuery(function($) {'use strict',
 	  social_tools: false
 	 });
 
-	//Countdown js
+	/*//Countdown js
 	$("#countdown").countdown({
 			date: "12 november 2014 12:00:00",
 			format: "on"
@@ -13,7 +13,7 @@ jQuery(function($) {'use strict',
 
 	function() {
 			// callback function
-	});
+	});*/
 
 	// Slider Height
 	var slideHeight = $(window).height();
