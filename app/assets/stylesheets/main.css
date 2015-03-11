@@ -712,7 +712,7 @@ ul.sub-menu{
 .upcoming .item_dateWrapper .flex-viewport {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
-  z-index: -1;
+  z-map: -1;
 }
 
 #carousel.item_dateWrapper li a {
