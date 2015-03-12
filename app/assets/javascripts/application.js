@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require sc-player
 //= require soundcloud.player.api
 //= require bootstrap.min
