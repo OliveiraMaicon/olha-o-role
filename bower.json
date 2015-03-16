@@ -1,0 +1,24 @@
+{
+  "name": "Olha o Role",
+  "version": "0.0.0",
+  "homepage": "https://github.com/OliveiraMaicon/olha-o-role",
+  "description": "Aplicativo para buscas de eventos",
+  "authors": [
+    "Oliveira Maicon"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+
+    "angular-google-maps" : "2.0.17",
+    "ngmap" : "1.4.2"
+
+  }
+}

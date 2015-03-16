@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # postgres
 gem 'pg'
 # Use SCSS for stylesheets
@@ -24,6 +22,17 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
+
+gem 'bower'
+
+gem 'sprockets', '2.2.2.backport1'
+
+
+source 'https://rails-assets.org' do
+    gem 'rails-assets-bootstrap'
+    gem 'rails-assets-angular'
+    gem 'rails-assets-leaflet'
+end
 
 
 # Use ActiveModel has_secure_password
