@@ -1,4 +1,3 @@
-/*
 jQuery(function($) {'use strict',
 
 	// Contact form validation
@@ -87,4 +86,4 @@ jQuery(function($) {'use strict',
 	});
 
 	map.setStyle("map_style");
-}());*/
+}());
