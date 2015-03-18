@@ -12,6 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require ../../../vendor/assets/bower_components/angular/angular
+//= require app
 //= require sc-player
 //= require soundcloud.player.api
 //= require bootstrap.min
@@ -23,4 +25,6 @@
 //= require jquery.flexslider
 //= require jquery.backstretch.min
 //= require switcher
+//= require ../../../vendor/assets/bower_components/lodash/dist/lodash.min
+//= require ../../../vendor/assets/bower_components/angular-google-maps/dist/angular-google-maps.min
 //= require_tree

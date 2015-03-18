@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'bower'
 
-gem 'sprockets', '2.2.2.backport1'
+gem 'sprockets'
 
 
 source 'https://rails-assets.org' do

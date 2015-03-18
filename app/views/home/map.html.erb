@@ -1,3 +1,4 @@
+<!--
 
   <div >
     <div  id="map_canvas" style="position: absolute; width:100%; height:100%;"></div>
@@ -5,4 +6,10 @@
 
   <div style="position:fixed; bottom:0; width:100%; height: 100px; background-color: rgba(0,0,0,0.8);">
     <div class="fb-like-box" data-href="https://www.facebook.com/pages/Olha-o-Rol&#xea;/722573154430808" data-width="100%" data-height="100" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
-  </div>
+  </div>-->
+
+<%= javascript_include_tag "controllers/home" %>
+<script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+<div id="teste" ng-controller="homeController">
+  <ui-gmap-google-map center="map.center" zoom="map.zoom" options="options"></ui-gmap-google-map>
+</div>

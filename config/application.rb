@@ -35,5 +35,11 @@ module Olha
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+=begin
+    config.assets.paths << Rails.root.join("vendor", "assetes", "bower_components")
+    config.assets.paths << Rails.root.join("app", "assetes", "javascript")
+    config.assets.paths << Rails.root.join("app", "assetes", "stylesheets")
+=end
   end
 end
