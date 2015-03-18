@@ -2,7 +2,7 @@ var app = angular.module('app', ['uiGmapgoogle-maps']).config(function(uiGmapGoo
         uiGmapGoogleMapApiProvider.configure({
             key: 'AIzaSyDRVpqN5PTvDQmC26pX5yQtBv2t3YGCUcs',
             v: '3.17',
-            libraries: 'weather,geometry,visualization'
+            libraries: 'visualization'
         });
     }
 );
@@ -17,8 +17,35 @@ app.controller("homeController", function($scope) {
    /* uiGmapGoogleMapApi.then(function(maps) {
 
     });*/
-    $scope.map = {center: {latitude: 51.219053, longitude: 4.404418 }, zoom: 14 };
-    $scope.options = {scrollwheel: false};
-    console.log($scope.map);
+
+    var styles = [
+        {
+            stylers: [
+                { hue: "#00a651" },
+                { saturation: -40 }
+            ]
+        },{
+            featureType: "road",
+            elementType: "geometry.fill",
+            stylers: [
+                { lightness: 100 },
+                { visibility: "simplified" }
+            ]
+        },{
+            featureType: "road",
+            elementType: "labels",
+            stylers: [
+                { visibility: "off" }
+            ]
+        }
+    ];
+
+    $scope.map = {center: {latitude: -21.7941667, longitude: -48.1743202 }, zoom: 14 };
+    $scope.options = {scrollwheel: false,
+        panControl: false,
+        scrollwheel: false,
+        disableDoubleClickZoom: true,
+        keyboardShortcuts: false,
+        styles: styles};
 });
 
