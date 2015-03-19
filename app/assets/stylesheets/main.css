@@ -2160,4 +2160,4 @@ ul.sub-menu{
   margin-right: 0;
 }
 
-.angular-google-map-container { height: 400px; }
+.angular-google-map-container { position: absolute; width:100%; height:100%; }
